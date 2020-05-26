@@ -73,12 +73,12 @@ const scissorsWin = () => {
 function shootScissors() {
     const compChoice = random();
     if (compChoice === "s") {
-        paperDraw();
+        scissorsDraw();
     }
     else if (compChoice === "r") {
-        paperLose();
+        scissorsLose();
     }
     else {
-        paperWin();
+        scissorsWin();
     };
 };
